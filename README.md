@@ -1,0 +1,1 @@
+# ngx-stateful-cache
