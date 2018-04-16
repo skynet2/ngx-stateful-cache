@@ -66,6 +66,6 @@
     "webpack-serve": "^0.3.1",
     "time-fix-plugin": "^2.0.0",
     "html-webpack-plugin": "^3.2.0",
-    "@ngtools/webpack" : "^1.5.1"
+    "@ngtools/webpack" : "^6.0.0-rc.4"
   }
 }

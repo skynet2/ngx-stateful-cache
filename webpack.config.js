@@ -28,16 +28,14 @@ module.exports = {
             }
         ]
     },
-    serve: {
-        "content": "./"
-    },
     plugins: [
         new TimeFixPlugin(),
         new HtmlWebpackPlugin(),
         new AngularCompilerPlugin.AngularCompilerPlugin({
-            tsConfigPath: './playground/tsconfig.json',
-            entryModule: './playground/app/app.module#PlayGroundModule',
-            sourceMap: true
+            tsConfigPath: __dirname + '/playground/tsconfig.json',
+            entryModule: __dirname + '/playground/app/app.module#PlayGroundModule',
+            sourceMap: true,
+            skipCodeGeneration: true
         })
     ]
 };
