@@ -35,7 +35,7 @@ module.exports = {
             tsConfigPath: __dirname + '/playground/tsconfig.json',
             entryModule: __dirname + '/playground/app/app.module#PlayGroundModule',
             sourceMap: true,
-            skipCodeGeneration: true
+            skipCodeGeneration: false
         })
     ]
 };
